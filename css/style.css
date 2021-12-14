@@ -1011,9 +1011,6 @@ template, [hidden] {
   margin-bottom: 15px;
   position: relative;
   padding-right: 26px;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
 }
 
 .article__mini h3::after {
@@ -2697,7 +2694,7 @@ template, [hidden] {
 .tabs__union{
   font-family: "SuisseIntl";
   margin-left: 26px;
-  width: 704px;
+  /* width: 704px; */
   font-weight: 400;
   font-size: 17px;
   line-height: 31px;
@@ -2755,7 +2752,6 @@ template, [hidden] {
 .tabs__union-list-three li::marker{
   content: "\2022";
   color: #FF7C07;
-  /* padding-right: 30px; */
 }
 .tabs__union-title-four{
   font-size: 17px;
@@ -2781,4 +2777,364 @@ template, [hidden] {
   color: #000000;
   text-decoration: underline;
   padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body__main-seven {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0 37px 0 40px;
+  max-width: 830px;
+  font-family: "RobotoCondensed";
+  color: #000000;
+}
+.tabs-seven {
+  padding-top: 25px;
+}
+
+
+.tabs__contract {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  color: #818181;
+  padding-bottom: 55px;
+  flex-wrap: wrap;
+}
+
+.tabs__contract-list{
+  margin-left: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+.tabs__contract li {
+  cursor: pointer;
+  padding-bottom: 4px;
+  margin-right: 10px;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  padding: 8px 10px;
+  margin-bottom: 18px;
+}
+
+.tabs__contract li.active {
+  color: #FFFFFF;
+  background-color: #F38B3E;
+  border-radius: 60px;
+  padding: 8px 10px;
+}
+
+
+.tabs__caption-seven {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          color: #909090;
+          padding: 0 0 19px 26px;
+}
+.tabs__caption-seven li {
+  cursor: pointer;
+  font-family: "SuisseIntl";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  position: relative;
+  padding-right: 21px;
+}
+.tabs__caption-seven li:hover{
+  color: #000000;
+}
+.arrow-left::before{
+  content: url(../img/tabs-caption-left.svg);
+  position: absolute;
+  left: -14px;
+} 
+.tabs__caption-seven li.active {
+  color: #000000;
+}
+.tabs__caption-seven li.active::before {
+  position: absolute;
+  left: -14px;
+  content: url(../img/tabs-caption-left-active.svg);
+  color: #000000;
+}
+
+.tabs__caption-seven-title{
+  font-family: "SuisseIntl";
+  margin-left: 26px;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.tabs__contract-item{
+  margin-left: 26px;
+  color: #000000;
+}
+
+.tabs__contract-list{
+  margin-bottom: 30px;
+}
+
+.tabs__contract-link-one{
+  display: flex;
+  margin-bottom: 15px;
+}
+.tabs__contract-link-one a{
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+.tabs__contract{
+  margin-bottom: 30px;
+}
+.tabs__contract-one{
+  width: 678px;
+  margin-bottom: 30px;
+}
+.tabs__contract-one-title{
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+.tabs__contract-one-link a{
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.tabs__contract-two{
+  width: 678px;
+  margin-bottom: 30px;
+}
+.tabs__contract-two-title{
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+.tabs__contract-two-link a{
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.tabs__contract-three{
+  width: 678px;
+  margin-bottom: 30px;
+}
+.tabs__contract-three-title{
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+.tabs__contract-three-link{
+  margin-bottom: 50px;
+}
+.tabs__contract-three-link a{
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.tabs__contract-three-text p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  width: 678px;
+}
+.contract__tagged-white{
+  display: flex;
+}
+.contract__tagged-white img{
+  margin-left: 10px;
+  width: 14px;
+  height: 16px;
+  margin-top: 5px;
+} 
+.contract__tagged-orange img{
+  margin-left: 10px;
+  width: 14px;
+  height: 16px;
+  margin-top: 5px;
+}
+.contract__tagged-orange{
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tabs__union-utton-inner{
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabs__union-buttons{
+  position: relative;
+}
+.union__btn{
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  padding: 0;
+  background-color: #F2F2F2;
+  width: 345px;
+  cursor: pointer;
+  margin:0 10px 10px 0;
+}
+.union__btn img{
+  margin: 20px;
+}
+.union__btn-text{
+  padding: 30px 9px 30px 0;
+  width: 236px;
+  text-align: left;
+}
+.union__modal{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+.union__modal-content{
+  width: 576px;
+  height: 482px;
+  background: rgba(178, 178, 178, 0.4);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+}
+.union__modal-content-inner{
+  position: relative;
+}
+.union__modal-content-title{
+  font-family: "SuisseIntl";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding: 30px 0 60px 20px;
+}
+.union__modal-content-title::after{
+  content: "";
+  width: 536px;
+  border: 1px solid #C4C4C4;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+}
+.union-close{
+  position: absolute;
+  right: 20px;
+  top: 33px;
+}
+.union-close:hover,
+.union-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.union__content-form{
+  display: grid;
+  margin: 0 20px 0 20px;
+}
+.union__content-form input{
+  width: 536px;
+  margin-bottom: 10px;
+  border: 1px solid #C4C4C4;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: "SuisseIntl";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #818181;
+  padding: 11px 9px 9px 9px;
+}
+.union__content-form textarea{
+  height: 193px;
+  resize: none;
+  border: 1px solid #C4C4C4;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: "SuisseIntl";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #818181;
+  padding: 11px 9px 9px 9px;
+  text-transform: capitalize;
+}
+.union__content-form-btn{
+  width: 157px;
+  height: 33px;
+  background-color: #F38B3E;
+  font-family: "SuisseIntl";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
 }
