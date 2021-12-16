@@ -7,13 +7,13 @@
 
 (function($) {
   $(function() {
-    $("ul.tabs__caption-one,ul.tabs__caption-two,ul.tabs__contract-list,ul.tabs__newspaper-list").on("click", "li:not(.active)", function() {
+    $("ul.tabs__caption-one,ul.tabs__caption-two,ul.tabs__contract-list,ul.tabs__newspaper-list,ul.tabs__brend-list").on("click", "li:not(.active)", function() {
       $(this)
         .addClass("active")
         .siblings()
         .removeClass("active")
-        .closest("div.tabs-one,div.tabs-two,div.tabs__contract,div.tabs__newspaper")
-        .find("div.tabs__content-one,div.tabs__content-two,div.tabs__contract-content,div.tabs__newspaper-item")
+        .closest("div.tabs-one,div.tabs-two,div.tabs__contract,div.tabs__newspaper,div.tabs__brend")
+        .find("div.tabs__content-one,div.tabs__content-two,div.tabs__contract-content,div.tabs__newspaper-item,div.tabs__brend-item")
         .removeClass("active")
         .eq($(this).index())
         .addClass("active");
@@ -38,4 +38,77 @@ for (i = 0; i < acc.length; i++) {
       panel.style.display = "block";
     }
   });
+}
+
+
+var btnActiveOne = document.getElementById("btnActiveOne")
+var btnDefaultOne = document.getElementById("btnDefaultOne")
+var btnActiveTwo = document.getElementById("btnActiveTwo")
+var btnDefaultTwo = document.getElementById("btnDefaultTwo")
+var btnActiveThree = document.getElementById("btnActiveThree")
+var btnDefaultThree = document.getElementById("btnDefaultThree")
+var btnActiveFour = document.getElementById("btnActiveFour")
+var btnDefaultFour = document.getElementById("btnDefaultFour")
+var btnActiveFive = document.getElementById("btnActiveFive")
+var btnDefaultFive = document.getElementById("btnDefaultFive")
+var btnActiveSix = document.getElementById("btnActiveSix")
+var btnDefaultSix = document.getElementById("btnDefaultSix")
+var btnActiveSeven = document.getElementById("btnActiveSeven")
+var btnDefaultSeven = document.getElementById("btnDefaultSeven")
+
+btnDefaultOne.onclick = function () {
+    btnActiveOne.style.display = "block"
+    btnDefaultOne.style.display = "none"
+}
+btnActiveOne.onclick = function () {
+    btnActiveOne.style.display = "none"
+    btnDefaultOne.style.display = "block"
+}
+btnDefaultTwo.onclick = function () {
+  btnActiveTwo.style.display = "block"
+  btnDefaultTwo.style.display = "none"
+}
+btnActiveTwo.onclick = function () {
+  btnActiveTwo.style.display = "none"
+  btnDefaultTwo.style.display = "block"
+}
+btnDefaultThree.onclick = function () {
+  btnActiveThree.style.display = "block"
+  btnDefaultThree.style.display = "none"
+}
+btnActiveThree.onclick = function () {
+  btnActiveThree.style.display = "none"
+  btnDefaultThree.style.display = "block"
+}
+btnDefaultFour.onclick = function () {
+  btnActiveFour.style.display = "block"
+  btnDefaultFour.style.display = "none"
+}
+btnActiveFour.onclick = function () {
+  btnActiveFour.style.display = "none"
+  btnDefaultFour.style.display = "block"
+}
+btnDefaultFive.onclick = function () {
+  btnActiveFive.style.display = "block"
+  btnDefaultFive.style.display = "none"
+}
+btnActiveFive.onclick = function () {
+  btnActiveFive.style.display = "none"
+  btnDefaultFive.style.display = "block"
+}
+btnDefaultSix.onclick = function () {
+  btnActiveSix.style.display = "block"
+  btnDefaultSix.style.display = "none"
+}
+btnActiveSix.onclick = function () {
+  btnActiveSix.style.display = "none"
+  btnDefaultSix.style.display = "block"
+}
+btnDefaultSeven.onclick = function () {
+  btnActiveSeven.style.display = "block"
+  btnDefaultSeven.style.display = "none"
+}
+btnActiveSeven.onclick = function () {
+  btnActiveSeven.style.display = "none"
+  btnDefaultSeven.style.display = "block"
 }
