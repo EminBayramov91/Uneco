@@ -3,22 +3,23 @@ var unionBtnFirst = document.getElementById("unionBtnFirst");
 var unionBtnSecond = document.getElementById("unionBtnSecond");
 var unionBtnThird = document.getElementById("unionBtnThird");
 var unionClose = document.getElementsByClassName("union__close")[0];
-unionBtnFirst.onclick = function() {
+
+unionBtnFirst.onclick = function () {
   unionModal.style.display = "block";
   unionBtnFirst.style.background = "#FF7C07"
   unionBtnFirst.style.color = "#fff"
 }
-unionBtnSecond.onclick = function() {
+unionBtnSecond.onclick = function () {
   unionModal.style.display = "block";
   unionBtnSecond.style.background = "#FF7C07"
   unionBtnSecond.style.color = "#fff"
 }
-unionBtnThird.onclick = function() {
+unionBtnThird.onclick = function () {
   unionModal.style.display = "block";
   unionBtnThird.style.background = "#FF7C07"
   unionBtnThird.style.color = "#fff"
 }
-unionClose.onclick = function() {
+unionClose.onclick = function () {
   unionModal.style.display = "none";
   unionBtnFirst.style.background = "#F2F2F2"
   unionBtnFirst.style.color = "#000"
@@ -27,8 +28,35 @@ unionClose.onclick = function() {
   unionBtnThird.style.background = "#F2F2F2"
   unionBtnThird.style.color = "#000"
 }
-window.onclick = function(event) {
+
+// forPopupOne.onclick = function() {
+//   unionModal.style.display = "none";
+//   unionBtnFirst.style.background = "#F2F2F2"
+//   unionBtnFirst.style.color = "#000"
+//   unionBtnSecond.style.background = "#F2F2F2"
+//   unionBtnSecond.style.color = "#000"
+//   unionBtnThird.style.background = "#F2F2F2"
+//   unionBtnThird.style.color = "#000"
+// }
+// forPopupTwo.onclick = function() {
+//   unionModal.style.display = "none";
+//   unionBtnFirst.style.background = "#F2F2F2"
+//   unionBtnFirst.style.color = "#000"
+//   unionBtnSecond.style.background = "#F2F2F2"
+//   unionBtnSecond.style.color = "#000"
+//   unionBtnThird.style.background = "#F2F2F2"
+//   unionBtnThird.style.color = "#000"
+// }
+window.onclick = function (event) {
   if (event.target == unionModal) {
-    unionModal.style.display = "none";
+    unionModal.style.display = "none"
+    unionBtnFirst.style.background = "#F2F2F2"
+    unionBtnFirst.style.color = "#000"
+    unionBtnSecond.style.background = "#F2F2F2"
+    unionBtnSecond.style.color = "#000"
+    unionBtnThird.style.background = "#F2F2F2"
+    unionBtnThird.style.color = "#000";
   }
 }
+
+

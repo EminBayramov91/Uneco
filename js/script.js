@@ -7,12 +7,12 @@
 
 (function($) {
   $(function() {
-    $("ul.tabs__caption-one,ul.tabs__caption-two,ul.tabs__contract-list,ul.tabs__newspaper-list,ul.tabs__brend-list").on("click", "li:not(.active)", function() {
+    $("ul.tabs__caption,ul.tabs__caption-popup,ul.tabs__contract-list,ul.tabs__newspaper-list,ul.tabs__brend-list").on("click", "li:not(.active)", function() {
       $(this)
         .addClass("active")
         .siblings()
         .removeClass("active")
-        .closest("div.tabs-one,div.tabs-two,div.tabs__contract,div.tabs__newspaper,div.tabs__brend")
+        .closest("div.tabs,div.tabs-two,div.tabs__contract,div.tabs__newspaper,div.tabs__brend")
         .find("div.tabs__content-one,div.tabs__content-two,div.tabs__contract-content,div.tabs__newspaper-item,div.tabs__brend-item")
         .removeClass("active")
         .eq($(this).index())
@@ -55,6 +55,7 @@ var btnActiveSix = document.getElementById("btnActiveSix")
 var btnDefaultSix = document.getElementById("btnDefaultSix")
 var btnActiveSeven = document.getElementById("btnActiveSeven")
 var btnDefaultSeven = document.getElementById("btnDefaultSeven")
+
 
 btnDefaultOne.onclick = function () {
     btnActiveOne.style.display = "block"
@@ -112,3 +113,4 @@ btnActiveSeven.onclick = function () {
   btnActiveSeven.style.display = "none"
   btnDefaultSeven.style.display = "block"
 }
+

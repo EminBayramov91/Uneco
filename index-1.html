@@ -37,8 +37,8 @@
           <div id="myModal" class="modal popup__item">
             <div class="tabs-two">
               <div class="popup__search">
-                <ul class="tabs__caption-two popup__search-list">
-                  <li class="active popup__search-list__static">Искать в</li>
+                <ul class="tabs__caption-popup popup__search-list">
+                  <li class="popup__search-list__static active">Искать в</li>
                   <li class="popup__search-list__content">Сотрудники</li>
                   <li class="popup__search-list__content">Новости</li>
                   <li class="popup__search-list__content">Документы</li>
@@ -421,12 +421,12 @@
 
 
         <!-- body__main -->
-        <main class="body__main-one">
+        <main class="body__main">
 
           <!-- tabs -->
-          <div class="tabs-one">
+          <div class="tabs">
 
-            <ul class="tabs__caption-one">
+            <ul class="tabs__caption">
               <li class="active">Все новости</li>
               <li>Новости компании</li>
               <li>Корпоративная жизнь</li>
@@ -470,7 +470,8 @@
                     <a class="btn-read" href="#">Читать</a>
 
                     <div class="article__noactive">
-                      <img src="img/article.svg" alt="">
+                      <img id="activeFour" class="bookmarks__mini-title-active" src="img/article-orange.svg" alt="#">
+                      <img id="defaultFour" class="bookmarks__mini-title-default" src="img/article.svg" alt="#">
                     </div>
 
                   </div>
@@ -479,79 +480,210 @@
 
               </div>
 
-              <a href="" class="article__mini">
+              <div class="bookmarks__mini">
+                <div class="bookmarks__mini-top">
 
-                <div class="article__mini-top">
-
-                  <div class="article__mini-data">
+                  <div class="bookmarks__mini-data">
                     12 авг 2021
                   </div>
 
-                  <div class="article__mini-theme">
-                    COVID-19
+                  <div class="bookmarks__mini-theme">
+                    Новости Москвы
                   </div>
 
                 </div>
 
-                <h3>
-                  Итоги ремонтной программы за первое полугодие 2021 года
-                </h3>
+                <div class="bookmarks__mini-title-one">
+                  <a href="#">
+                    Итоги ремонтной программы за первое полугодие 2021 года
+                  </a>
+                  <img id="activeFive" class="bookmarks__mini-title-active" src="img/article-orange.svg" alt="#">
+                  <img id="defaultFive" class="bookmarks__mini-title-default" src="img/article.svg" alt="#">
+                </div>
 
-                <p>В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать семена для
-                  выращивания бобов, используемых в качестве кормовой базы</p>
+                <div class="bookmarks__mini-text-one">
+                  В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать
+                  семена для
+                  выращивания бобов, используемых в качестве кормовой базы
+                </div>
+              </div>
+              <div class="bookmarks__mini">
+                <div class="bookmarks__mini-top">
 
-              </a>
+                  <div class="bookmarks__mini-data">
+                    12 авг 2021
+                  </div>
 
-              <div class="article__mini-wrap">
-                <a href="" class="article__mini">
+                  <div class="bookmarks__mini-theme">
+                    Новости Москвы
+                  </div>
 
-                  <div class="article__mini-top">
+                </div>
 
-                    <div class="article__mini-data">
+                <div class="bookmarks__mini-title-one">
+                  <a href="#">
+                    Итоги ремонтной программы за первое полугодие 2021 года
+                  </a>
+                  <img id="activeSix" class="bookmarks__mini-title-active" src="img/article-orange.svg" alt="#">
+                  <img id="defaultSix" class="bookmarks__mini-title-default" src="img/article.svg" alt="#">
+                </div>
+
+                <div class="bookmarks__mini-text-one">
+                  В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать
+                  семена для
+                  выращивания бобов, используемых в качестве кормовой базы
+                </div>
+              </div>
+              <div class="bookmarks__mini">
+                <div class="bookmarks__mini-top">
+
+                  <div class="bookmarks__mini-data">
+                    12 авг 2021
+                  </div>
+
+                  <div class="bookmarks__mini-theme">
+                    Новости Москвы
+                  </div>
+
+                </div>
+
+                <div class="bookmarks__mini-title-one">
+                  <a href="#">
+                    Итоги ремонтной программы за первое полугодие 2021 года
+                  </a>
+                  <img id="activeSeven" class="bookmarks__mini-title-active" src="img/article-orange.svg" alt="#">
+                  <img id="defaultSeven" class="bookmarks__mini-title-default" src="img/article.svg" alt="#">
+                </div>
+
+                <div class="bookmarks__mini-text-one">
+                  В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать
+                  семена для
+                  выращивания бобов, используемых в качестве кормовой базы
+                </div>
+              </div>
+
+              <div class="bookmarks">
+                <div class="bookmarks__mini-two">
+                  <div class="bookmarks__mini-top">
+
+                    <div class="bookmarks__mini-data">
                       12 авг 2021
                     </div>
 
-                    <div class="article__mini-theme">
-                      COVID-19
+                    <div class="bookmarks__mini-theme">
+                      Новости Москвы
                     </div>
 
                   </div>
 
-                  <h3>
-                    Итоги ремонтной программы за первое полугодие 2021 года
-                  </h3>
+                  <div class="bookmarks__mini-title-two">
+                    <a href="#">
+                      Итоги ремонтной программы за первое полугодие 2021 года
+                    </a>
+                    <img id="activeEight" class="bookmarks__mini-title-active-two" src="img/article-orange.svg" alt="#">
+                    <img id="defaultEight" class="bookmarks__mini-title-default-two" src="img/article.svg" alt="#">
+                  </div>
 
-                  <img src="img/article-img.jpg" alt="">
+                  <div class="bookmarks__mini-two-image">
+                    <img src="img/article-img.jpg" alt="">
+                  </div>
 
-                  <p>В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать семена для
-                    выращивания бобов, используемых в качестве кормовой базы</p>
+                  <div class="bookmarks__mini-text-two">
+                    В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать
+                    семена для
+                    выращивания бобов, используемых в качестве кормовой базы
+                  </div>
+                </div>
 
-                </a>
+                <div class="bookmarks__mini-two">
+                  <div class="bookmarks__mini-top">
 
-                <a href="" class="article__mini">
-
-                  <div class="article__mini-top">
-
-                    <div class="article__mini-data">
+                    <div class="bookmarks__mini-data">
                       12 авг 2021
                     </div>
 
-                    <div class="article__mini-theme">
-                      COVID-19
+                    <div class="bookmarks__mini-theme">
+                      Новости Москвы
                     </div>
 
                   </div>
 
-                  <h3>
-                    Итоги ремонтной программы за первое полугодие 2021 года
-                  </h3>
+                  <div class="bookmarks__mini-title-two">
+                    <a href="#">
+                      Итоги ремонтной программы за первое полугодие 2021 года
+                    </a>
+                    <img id="activeNine" class="bookmarks__mini-title-active-two" src="img/article-orange.svg" alt="#">
+                    <img id="defaultNine" class="bookmarks__mini-title-default-two" src="img/article.svg" alt="#">
+                  </div>
 
-                  <img src="img/article-img.jpg" alt="">
+                  <div class="bookmarks__mini-two-image">
+                    <img src="img/article-img-2.jpg" alt="">
+                  </div>
 
-                  <p>В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать семена для
-                    выращивания бобов, используемых в качестве кормовой базы</p>
+                  <div class="bookmarks__mini-text-two">
+                    В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать
+                    семена для
+                    выращивания бобов, используемых в качестве кормовой базы
+                  </div>
+                </div>
+              </div>
+              <div class="bookmarks">
+                <div class="bookmarks__mini-two">
+                  <div class="bookmarks__mini-top">
 
-                </a>
+                    <div class="bookmarks__mini-data">
+                      12 авг 2021
+                    </div>
+
+                    <div class="bookmarks__mini-theme">
+                      Новости Москвы
+                    </div>
+
+                  </div>
+
+                  <div class="bookmarks__mini-title-two">
+                    <a href="#">
+                      Итоги ремонтной программы за первое полугодие 2021 года
+                    </a>
+                    <img id="activeTen" class="bookmarks__mini-title-active-two" src="img/article-orange.svg" alt="#">
+                    <img id="defaultTen" class="bookmarks__mini-title-default-two" src="img/article.svg" alt="#">
+                  </div>
+
+                  <div class="bookmarks__mini-text-two">
+                    В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать
+                    семена для
+                    выращивания бобов, используемых в качестве кормовой базы
+                  </div>
+                </div>
+
+                <div class="bookmarks__mini-two">
+                  <div class="bookmarks__mini-top">
+
+                    <div class="bookmarks__mini-data">
+                      12 авг 2021
+                    </div>
+
+                    <div class="bookmarks__mini-theme">
+                      Новости Москвы
+                    </div>
+
+                  </div>
+
+                  <div class="bookmarks__mini-title-two">
+                    <a href="#">
+                      Итоги ремонтной программы за первое полугодие 2021 года
+                    </a>
+                    <img id="activeEleven" class="bookmarks__mini-title-active-two" src="img/article-orange.svg"
+                      alt="#">
+                    <img id="defaultEleven" class="bookmarks__mini-title-default-two" src="img/article.svg" alt="#">
+                  </div>
+
+                  <div class="bookmarks__mini-text-two">
+                    В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать
+                    семена для
+                    выращивания бобов, используемых в качестве кормовой базы
+                  </div>
+                </div>
               </div>
 
 
@@ -589,7 +721,8 @@
                     <a class="btn-read" href="#">Читать 2 минуты</a>
 
                     <div class="article__noactive">
-                      <img src="img/article.svg" alt="">
+                      <img id="activeTwelve" class="bookmarks__mini-title-active" src="img/article-orange.svg" alt="#">
+                      <img id="defaultTwelve" class="bookmarks__mini-title-default" src="img/article.svg" alt="#">
                     </div>
 
                   </div>
@@ -598,28 +731,60 @@
 
               </div>
 
-              <a href="" class="article__mini">
+              <div class="bookmarks__mini">
+                <div class="bookmarks__mini-top">
 
-                <div class="article__mini-top">
-
-                  <div class="article__mini-data">
+                  <div class="bookmarks__mini-data">
                     12 авг 2021
                   </div>
 
-                  <div class="article__mini-theme">
-                    COVID-19
+                  <div class="bookmarks__mini-theme">
+                    Новости Москвы
                   </div>
 
                 </div>
 
-                <h3>
-                  Итоги ремонтной программы за первое полугодие 2021 года
-                </h3>
+                <div class="bookmarks__mini-title-one">
+                  <a href="#">
+                    Итоги ремонтной программы за первое полугодие 2021 года
+                  </a>
+                  <img id="activeThirteen" class="bookmarks__mini-title-active" src="img/article-orange.svg" alt="#">
+                  <img id="defaultThirteen" class="bookmarks__mini-title-default" src="img/article.svg" alt="#">
+                </div>
 
-                <p>В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать семена для
-                  выращивания бобов, используемых в качестве кормовой базы</p>
+                <div class="bookmarks__mini-text-one">
+                  В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать
+                  семена для
+                  выращивания бобов, используемых в качестве кормовой базы
+                </div>
+              </div>
+              <div class="bookmarks__mini">
+                <div class="bookmarks__mini-top">
 
-              </a>
+                  <div class="bookmarks__mini-data">
+                    12 авг 2021
+                  </div>
+
+                  <div class="bookmarks__mini-theme">
+                    Новости Москвы
+                  </div>
+
+                </div>
+
+                <div class="bookmarks__mini-title-one">
+                  <a href="#">
+                    Итоги ремонтной программы за первое полугодие 2021 года
+                  </a>
+                  <img id="activeFourteen" class="bookmarks__mini-title-active" src="img/article-orange.svg" alt="#">
+                  <img id="defaultFourteen" class="bookmarks__mini-title-default" src="img/article.svg" alt="#">
+                </div>
+
+                <div class="bookmarks__mini-text-one">
+                  В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать
+                  семена для
+                  выращивания бобов, используемых в качестве кормовой базы
+                </div>
+              </div>
 
 
 
@@ -765,7 +930,6 @@
     </div>
   </section>
   <!-- body -->
-
 
 
 
