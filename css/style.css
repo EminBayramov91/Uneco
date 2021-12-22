@@ -607,50 +607,85 @@ template, [hidden] {
 }
  
 
-
-.chat {
-  margin-left: 10px;
-  width: 38px;
-  height: 38px;
-  background: #F2F2F2;
-  border-radius: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  cursor: pointer;
+.notification{
   position: relative;
 }
-
-.chat__number {
+.notification-modal{
+  display: none;
   position: absolute;
-  top: -4px;
-  right: -2px;
+  background: rgba(178, 178, 178, 0.4);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  width: 391px;
+  height: 277px;
+  overflow: overlay;
+  right: 0;
+  top: 49px;
+  z-index: 1;
+}
+.notification-modal::-webkit-scrollbar {
+  width: 0;
+}
+.notification-modal__btn:first-child{
+  margin-top: 20px; 
+}
+.notification-default{
+  width: 38px;
+  height: 38px;
+  border-radius: 60px;
+  background-color: #F2F2F2;
+  padding: 11px 12px;
+  position: relative;
+}
+.notification-default::before{
+  content: "4";
+  border: 1px solid #F38B3E;
   background-color: #F38B3E;
+  color: #fff;
+  position: absolute;
   width: 16px;
   height: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  font-family: "RobotoCondensed";
+  font-weight: 400;
   font-size: 12px;
-  border-radius: 100%;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  top: -6px;
+  right: 0;
+  padding: 1px 0px 0px 4px;
 }
-
-.chat svg {
-  fill: #000000;
+.notification-active{
+  width: 38px;
+  height: 38px;
+  border-radius: 60px;
+  background-color: #F38B3E;
+  padding: 11px 12px;
+  display: none;
+}
+.notification-active::before{
+  content: "4";
+  border: 1px solid #ffffff;
+  background-color: #F38B3E;
+  color: #fff;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  font-family: "RobotoCondensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  top: -6px;
+  right: 0;
+  padding: 1px 0px 0px 4px;
+}
+.not__close-btn,
+.not__close-btn-two,
+.not__close-btn-three,
+.not__close-btn-four{
+  padding-top: 15px;
 }
 
 .user {
@@ -1298,6 +1333,7 @@ template, [hidden] {
 
 .tabs__content-two {
   display: none;
+  height: 982px;
 }
 
 .tabs__content-two.active {
@@ -2359,7 +2395,6 @@ template, [hidden] {
   background: rgba(178, 178, 178, 0.4);
   backdrop-filter: blur(20px);
   width: 576px;
-  height: 982px;
   margin: 0 auto;
   border-radius: 15px;
 }
@@ -2473,6 +2508,9 @@ template, [hidden] {
 }
 .popup__documents p{
   padding-bottom: 10px;
+}
+.popup__documents-list{
+  margin-bottom: 40px;
 }
 .popup__documents-list li{
   margin-bottom: 10px;
