@@ -119,4 +119,7 @@ body.onclick = function() {
     notModal.style.display = "none"
     notBtnDefault.style.display = "block"
     notBtnClose.style.display = "none"
+    modal.style.display = "none"
+    button.style.display = "block"
+    img.style.display = "none"
 }

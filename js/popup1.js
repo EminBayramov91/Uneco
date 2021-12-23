@@ -4,6 +4,7 @@ var popup = document.getElementsByClassName("popup__search");
 var modal = document.getElementById("myModal");
 var button = document.getElementById("myBtn");
 var img = document.getElementsByClassName("close")[0];
+// var body = document.getElementsByClassName("body")["0"];
 
 button.onclick = function() {
   button.style.display = "none"
@@ -53,18 +54,11 @@ modaClose.onclick = function() {
   modalEmp.style.display = "block";
 }
 
-
-
-window.onclick = function(event) {
-  if (event.target === modal) {
-    modal.style.display = "none"
-    img.style.display = "none"
-    button.style.display = "block";
-  }
-  if (event.target == modalTwo) {
-    modalTwo.style.display = "none";
-  }
-}
+// body.onclick = function() {
+//   modal.style.display = "none"
+//   button.style.display = "block"
+//   img.style.display = "none"
+// }
 
 
 var activeFour = document.getElementById("activeFour")
