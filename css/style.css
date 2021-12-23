@@ -1622,7 +1622,6 @@ template, [hidden] {
   background-color: #F2F2F2;
   width: 650px;
   margin-bottom: 10px;
-  
 }
 .about__building-inner:first-child{
   margin-top: 20px;
@@ -1905,7 +1904,6 @@ template, [hidden] {
   background-color: #F2F2F2;
   width: 650px;
   margin-bottom: 10px;
-  
 }
 .about__building-inner:first-child{
   margin-top: 20px;
@@ -4007,4 +4005,55 @@ template, [hidden] {
 }
 .bookmarks__mini-title-active-two{
   display: none;
+}
+
+
+
+/* new code */
+
+.tabs__birthday{
+  padding-left: 26px;
+}
+.tabs__birthday-title{
+  font-family: "SuisseIntl", sans-serif;
+  font-size: 17px;
+  line-height: 31px;
+  color: #000000;
+}
+.tabs__birthday-info{
+  margin-bottom: 10px;
+}
+.birthday-inner:first-child{
+  margin-top: 10px;
+}
+.birthday-inner a{
+  display: flex;
+}
+.birthday-inner {
+  background-color: #F2F2F2;
+  width: 650px;
+  margin-bottom: 10px;
+}
+.birthday-inner  img{
+  padding: 6px 12px;
+}
+.birthday__text{
+  padding: 14px 0 13px;
+}
+.birthday__name{
+  font-family: "SuisseIntl", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  margin-bottom: 5px;
+}
+.birthday__people{  
+  font-family: "SuisseIntl", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #818181;
+  width: 380px;
 }
