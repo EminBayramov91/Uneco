@@ -22,6 +22,7 @@ var notCloseSecond = document.getElementsByClassName("not__close-btn-two")["0"]
 var notCloseThree = document.getElementsByClassName("not__close-btn-three")["0"]
 var notCloseFourth = document.getElementsByClassName("not__close-btn-four")["0"]
 var body = document.getElementsByClassName("body")["0"]
+var title = document.getElementsByClassName("notification-modal__title")["0"]
 
 notBtnDefault.onclick = function() {
     notModal.style.display = "block"
@@ -42,6 +43,7 @@ notBtnFirst.onclick = function() {
     notBtnSecond.style.display = "none"
     notBtnThird.style.display = "none"
     notBtnFourth.style.display = "none"
+    title.style.display = "none"
     notModal.style.width = "576px"
     notModal.style.height = "480px"
 }
@@ -51,6 +53,7 @@ notCloseFirst.onclick = function() {
     notBtnSecond.style.display = "flex"
     notBtnThird.style.display = "flex"
     notBtnFourth.style.display = "flex"
+    title.style.display = "flex"
     notModal.style.width = "391px"
     notModal.style.height = "277px"
 }
@@ -62,6 +65,7 @@ notBtnSecond.onclick = function() {
     notBtnSecond.style.display = "none"
     notBtnThird.style.display = "none"
     notBtnFourth.style.display = "none"
+    title.style.display = "none"
     notModal.style.width = "576px"
     notModal.style.height = "480px"
 }
@@ -71,6 +75,7 @@ notCloseSecond.onclick = function() {
     notBtnSecond.style.display = "flex"
     notBtnThird.style.display = "flex"
     notBtnFourth.style.display = "flex"
+    title.style.display = "flex"
     notModal.style.width = "391px"
     notModal.style.height = "277px"
 }
@@ -82,6 +87,7 @@ notBtnThird.onclick = function() {
     notBtnSecond.style.display = "none"
     notBtnThird.style.display = "none"
     notBtnFourth.style.display = "none"
+    title.style.display = "none"
     notModal.style.width = "576px"
     notModal.style.height = "480px"
 }
@@ -91,6 +97,7 @@ notCloseThree.onclick = function() {
     notBtnSecond.style.display = "flex"
     notBtnThird.style.display = "flex"
     notBtnFourth.style.display = "flex"
+    title.style.display = "flex"
     notModal.style.width = "391px"
     notModal.style.height = "277px"
 }
@@ -102,6 +109,7 @@ notBtnFourth.onclick = function() {
     notBtnSecond.style.display = "none"
     notBtnThird.style.display = "none"
     notBtnFourth.style.display = "none"
+    title.style.display = "none"
     notModal.style.width = "576px"
     notModal.style.height = "480px"
 }
@@ -111,6 +119,7 @@ notCloseFourth.onclick = function() {
     notBtnSecond.style.display = "flex"
     notBtnThird.style.display = "flex"
     notBtnFourth.style.display = "flex"
+    title.style.display = "flex"
     notModal.style.width = "391px"
     notModal.style.height = "277px"
 }
