@@ -650,6 +650,7 @@ template, [hidden] {
   border-radius: 20px;
   background-color: #fff;
   padding: 8px 10px;
+  cursor: pointer;
 }
 .notification-modal__btn:first-child{
   margin-top: 20px; 
@@ -661,6 +662,7 @@ template, [hidden] {
   background-color: #F2F2F2;
   padding: 11px 12px;
   position: relative;
+  cursor: pointer;
 }
 .notification-default__number{
   position: absolute;
@@ -687,6 +689,7 @@ template, [hidden] {
   padding: 11px 12px;
   display: none;
   position: relative;
+  cursor: pointer;
 }
 .notification-active__number{
   border: 1px solid #ffffff;
