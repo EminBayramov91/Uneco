@@ -45,7 +45,7 @@ notBtnFirst.onclick = function() {
     notBtnFourth.style.display = "none"
     title.style.display = "none"
     notModal.style.width = "576px"
-    notModal.style.height = "480px"
+    notModal.style.height = "500px"
 }
 notCloseFirst.onclick = function() {
     notFirst.style.display = "none"
@@ -55,7 +55,7 @@ notCloseFirst.onclick = function() {
     notBtnFourth.style.display = "flex"
     title.style.display = "flex"
     notModal.style.width = "391px"
-    notModal.style.height = "277px"
+    notModal.style.height = "420px"
 }
 
 
@@ -67,7 +67,7 @@ notBtnSecond.onclick = function() {
     notBtnFourth.style.display = "none"
     title.style.display = "none"
     notModal.style.width = "576px"
-    notModal.style.height = "480px"
+    notModal.style.height = "500px"
 }
 notCloseSecond.onclick = function() {
     notSecond.style.display = "none"
@@ -77,7 +77,7 @@ notCloseSecond.onclick = function() {
     notBtnFourth.style.display = "flex"
     title.style.display = "flex"
     notModal.style.width = "391px"
-    notModal.style.height = "277px"
+    notModal.style.height = "420px"
 }
 
 
@@ -89,7 +89,7 @@ notBtnThird.onclick = function() {
     notBtnFourth.style.display = "none"
     title.style.display = "none"
     notModal.style.width = "576px"
-    notModal.style.height = "480px"
+    notModal.style.height = "500px"
 }
 notCloseThree.onclick = function() {
     notThird.style.display = "none"
@@ -99,7 +99,7 @@ notCloseThree.onclick = function() {
     notBtnFourth.style.display = "flex"
     title.style.display = "flex"
     notModal.style.width = "391px"
-    notModal.style.height = "277px"
+    notModal.style.height = "420px"
 }
 
 
@@ -111,7 +111,7 @@ notBtnFourth.onclick = function() {
     notBtnFourth.style.display = "none"
     title.style.display = "none"
     notModal.style.width = "576px"
-    notModal.style.height = "480px"
+    notModal.style.height = "500px"
 }
 notCloseFourth.onclick = function() {
     notFourth.style.display = "none"
@@ -121,7 +121,7 @@ notCloseFourth.onclick = function() {
     notBtnFourth.style.display = "flex"
     title.style.display = "flex"
     notModal.style.width = "391px"
-    notModal.style.height = "277px"
+    notModal.style.height = "420px"
 }
 
 body.onclick = function() {
