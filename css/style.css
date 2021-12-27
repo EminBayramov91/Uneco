@@ -665,6 +665,7 @@ template, [hidden] {
   cursor: pointer;
 }
 .notification-default__number{
+  text-align: center;
   position: absolute;
   width: 16px;
   height: 16px;
@@ -677,7 +678,7 @@ template, [hidden] {
   font-size: 12px;
   line-height: 13px;
   letter-spacing: 0.02em;
-  padding: 1px 0px 0px 4px;
+  padding-top: 1px;
   top: -6px;
   right: 0;
 }
@@ -706,7 +707,8 @@ template, [hidden] {
   letter-spacing: 0.02em;
   top: -6px;
   right: 0;
-  padding: 1px 0px 0px 4px;
+  padding-top: 1px;
+  text-align: center;
 }
 .not__close-btn,
 .not__close-btn-two,
