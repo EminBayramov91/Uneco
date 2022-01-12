@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+
+        <div class="header__wrap">
+
+            <a href="#" class="logo">
+                <img src="img/logo.svg" alt="Abbott">
+            </a>
+
+            <div class="header__search">
+
+                <form>
+                    <input type="search" placeholder="Искать сотрудника, новость или документ...">
+                </form>
+                <div class="header__search-popup" style="position: relative;">
+                    <button class="header__search-btn" id="myBtn" type="submit"></button>
+                    <img class="close" src="img/close-btn.svg">
+                    <div id="myModal" class="modal popup__item">
+                        <div class="tabs-two">
+                            <div class="popup__search">
+                                <ul class="tabs__caption-popup popup__search-list">
+                                    <li class="popup__search-list__static active">Искать в</li>
+                                    <li class="popup__search-list__content">Сотрудники</li>
+                                    <li class="popup__search-list__content">Новости</li>
+                                    <li class="popup__search-list__content">Документы</li>
+                                </ul>
+                            </div>
+                            <div class="tabs__content-two active">
+                                <div class="popup__employees">
+                                    <p>Сотрудники</p>
+                                    <ul class="popup__employees-list">
+                                        <li>
+                                            <img src="img/popup-1.png" alt="">
+                                            <a href="#">
+                                                Константинопольский Константин
+                                                <p>Написать сообщение</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <img src="img/popup-2.png" alt="">
+                                            <a href="#">
+                                                Константинопольский Петр
+                                                <p>Написать сообщение</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <img src="img/popup-3.png" alt="">
+                                            <a href="#">
+                                                Константинопольская Анастасия
+                                                <p>Написать сообщение</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="popup__news">
+                                    <p>Новости</p>
+                                    <ul class="popup__news-list">
+                                        <li>
+                                            <a href="#">
+                                                <p>20 авг 2021</p>
+                                                Итоги Петра Константинопольского ремонтной программы за первое полугодие
+                                                2021 года
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <p>20 авг 2021</p>
+                                                В Минэкономразвития сообщили, что отмена ограничительных мер позволит
+                                                импортировать семена
+                                                для
+                                                выращивания бобов, используемых в качестве кормовой базы
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <p>20 авг 2021</p>
+                                                Петр константинопольский открыл выставку.
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="popup__documents">
+                                    <p>Документы</p>
+                                    <ul class="popup__documents-list">
+                                        <li>
+                                            <a href="#">
+                                                О начале оперативно ремонтно-эксплуатационного обслуживания
+                                                электрических сетей
+                                                (трансформаторных подстанций, распределительных трансформаторных
+                                                подстанций,
+                                                распределительных
+                                                пунктов и кабельных линий 6-10 кВ) ГУП «Моссвет», передаваемых в аренду
+                                                ОАО «ОЭК»
+                                                <p>Константинопольская Анастасия</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Внесены изменения, Распоряжение от 29.01.2015 № 01/244-P
+                                                <p>Константинопольский Константин</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tabs__content-two modal-two__inner">
+                                <div class="modal-two__item">
+                                    <div id="modalEmp" class="modal-two__employees">Сотрудники</div>
+                                    <div id="modalTwoBtn" class="modal-two__btn">
+                                        <img src="img/popup-1.png" alt="">
+                                        <div class="modal-two__btn-text">
+                                            Константинопольский Константин
+                                            <p>Написать сообщение</p>
+                                        </div>
+                                    </div>
+                                    <div id="modalTwo" class="modal-two">
+                                        <div class="modal-two__content popup__people">
+                                            <div class="modal-two__close">Свернуть</div>
+                                            <div class="popup__people-active">
+                                                <div class="popup__people-inner">
+                                                    <div class="popup__people-image">
+                                                        <img src="img/popup-1.png" alt="image">
+                                                    </div>
+                                                    <div class="popup__people-item">
+                                                        <div class="popup__people-title">
+                                                            Константинопольский
+                                                            Константин Константинович
+                                                        </div>
+                                                        <div class="popup__people-text">
+                                                            Руководитель отдела по строительству и реконструкции
+                                                            объектов наружного освещения
+                                                        </div>
+                                                    </div>
+                                                    <div class="popup__people-btn">
+                                                        <a href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                                <div class="popup__people-container">
+                                                    <div class="popup__people-intro">
+                                                        <!-- popup__people-inner -->
+                                                        <ul class="popup__people-info">
+                                                            <li>E-mail</li>
+                                                            <li class="popup__people-first">konstantin1983@mail.ru</li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Телефон</li>
+                                                            <li>8 983 765 98 76 </li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Внутренний номер</li>
+                                                            <li>8 983 765 98 76 </li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Кабинет</li>
+                                                            <li>124А</li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Подразделение</li>
+                                                            <li class="popup__people-line">
+                                                                Отдел по строительству и реконструкции объектов
+                                                                наружного освещения
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="popup__people-link-bg">
+                                                    <div class="popup__people-link">
+                                                        <a href="#">Смотреть полную информацию</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="modalTBtn" class="modal-two__btn">
+                                        <img src="img/popup-2.png" alt="">
+                                        <div class="modal-two__btn-text">
+                                            Константинопольский Петр
+                                            <p>Написать сообщение</p>
+                                        </div>
+                                    </div>
+                                    <div id="modalTwo" class="modal-two">
+                                        <div class="modal-two__content popup__people">
+                                            <div class="modal-two__close">Свернуть</div>
+                                            <div class="popup__people-active">
+                                                <div class="popup__people-inner">
+                                                    <div class="popup__people-image">
+                                                        <img src="img/popup-1.png" alt="image">
+                                                    </div>
+                                                    <div class="popup__people-item">
+                                                        <div class="popup__people-title">
+                                                            Константинопольский
+                                                            Константин Константинович
+                                                        </div>
+                                                        <div class="popup__people-text">
+                                                            Руководитель отдела по строительству и реконструкции
+                                                            объектов наружного освещения
+                                                        </div>
+                                                    </div>
+                                                    <div class="popup__people-btn">
+                                                        <a href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                                <div class="popup__people-container">
+                                                    <div class="popup__people-intro">
+                                                        <!-- popup__people-inner -->
+                                                        <ul class="popup__people-info">
+                                                            <li>E-mail</li>
+                                                            <li class="popup__people-first">konstantin1983@mail.ru</li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Телефон</li>
+                                                            <li>8 983 765 98 76 </li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Внутренний номер</li>
+                                                            <li>8 983 765 98 76 </li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Кабинет</li>
+                                                            <li>124А</li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Подразделение</li>
+                                                            <li class="popup__people-line">
+                                                                Отдел по строительству и реконструкции объектов
+                                                                наружного освещения
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="popup__people-link-bg">
+                                                    <div class="popup__people-link">
+                                                        <a href="#">Смотреть полную информацию</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="modalTwBtn" class="modal-two__btn">
+                                        <img src="img/popup-2.png" alt="">
+                                        <div class="modal-two__btn-text">
+                                            Константинопольский Петр
+                                            <p>Написать сообщение</p>
+                                        </div>
+                                    </div>
+                                    <div id="modalTwo" class="modal-two">
+                                        <div class="modal-two__content popup__people">
+                                            <div class="modal-two__close">Свернуть</div>
+                                            <div class="popup__people-active">
+                                                <div class="popup__people-inner">
+                                                    <div class="popup__people-image">
+                                                        <img src="img/popup-1.png" alt="image">
+                                                    </div>
+                                                    <div class="popup__people-item">
+                                                        <div class="popup__people-title">
+                                                            Константинопольский
+                                                            Константин Константинович
+                                                        </div>
+                                                        <div class="popup__people-text">
+                                                            Руководитель отдела по строительству и реконструкции
+                                                            объектов наружного освещения
+                                                        </div>
+                                                    </div>
+                                                    <div class="popup__people-btn">
+                                                        <a href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                                <div class="popup__people-container">
+                                                    <div class="popup__people-intro">
+                                                        <!-- popup__people-inner -->
+                                                        <ul class="popup__people-info">
+                                                            <li>E-mail</li>
+                                                            <li class="popup__people-first">konstantin1983@mail.ru</li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Телефон</li>
+                                                            <li>8 983 765 98 76 </li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Внутренний номер</li>
+                                                            <li>8 983 765 98 76 </li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Кабинет</li>
+                                                            <li>124А</li>
+                                                        </ul>
+                                                        <ul class="popup__people-info">
+                                                            <li>Подразделение</li>
+                                                            <li class="popup__people-line">
+                                                                Отдел по строительству и реконструкции объектов
+                                                                наружного освещения
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="popup__people-link-bg">
+                                                    <div class="popup__people-link">
+                                                        <a href="#">Смотреть полную информацию</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs__content-two">
+                                3
+                            </div>
+                            <div class="tabs__content-two">
+                                4
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="notification">
+                    <div id="notBtnDefault" class="notification-default">
+                        <div class="notification-default__number">4</div>
+                        <img src="img/notification-black.svg" alt="">
+                    </div>
+                    <div id="notBtnClose" class="notification-active">
+                        <div class="notification-active__number">4</div>
+                        <img src="img/notification-white.svg" alt="">
+                    </div>
+                    <div id="notModal" class="modal-two__item notification-modal">
+                        <div class="notification-inner">
+                            <div id="notBtnFirst" class="modal-two__btn notification-modal__btn">
+                                <img src="img/popup-1.png" alt="">
+                                <div class="modal-two__btn-text">
+                                    Константинопольский Константин
+                                    <p>Написать сообщение</p>
+                                </div>
+                            </div>
+                            <div id="notFirst" class="modal-two">
+                                <div class="modal-two__content popup__people">
+                                    <div class="modal-two__close not__close-btn">Свернуть</div>
+                                    <div class="popup__people-active">
+                                        <div class="popup__people-inner">
+                                            <div class="popup__people-image">
+                                                <img src="img/popup-1.png" alt="image">
+                                            </div>
+                                            <div class="popup__people-item">
+                                                <div class="popup__people-title">
+                                                    Константинопольский
+                                                    Константин Константинович
+                                                </div>
+                                                <div class="popup__people-text">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного освещения
+                                                </div>
+                                            </div>
+                                            <div class="popup__people-btn">
+                                                <a href="#">Написать сообщение</a>
+                                            </div>
+                                        </div>
+                                        <div class="popup__people-container">
+                                            <div class="popup__people-intro">
+                                                <!-- popup__people-inner -->
+                                                <ul class="popup__people-info">
+                                                    <li>E-mail</li>
+                                                    <li class="popup__people-first">konstantin1983@mail.ru</li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Телефон</li>
+                                                    <li>8 983 765 98 76 </li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Внутренний номер</li>
+                                                    <li>8 983 765 98 76 </li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Кабинет</li>
+                                                    <li>124А</li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Подразделение</li>
+                                                    <li class="popup__people-line">
+                                                        Отдел по строительству и реконструкции объектов наружного
+                                                        освещения
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="popup__people-link-bg">
+                                            <div class="popup__people-link">
+                                                <a href="#">Смотреть полную информацию</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="notBtnSecond" class="modal-two__btn notification-modal__btn">
+                                <img src="img/popup-1.png" alt="">
+                                <div class="modal-two__btn-text">
+                                    Константинопольский Константин
+                                    <p>Написать сообщение</p>
+                                </div>
+                            </div>
+                            <div id="notSecond" class="modal-two">
+                                <div class="modal-two__content popup__people">
+                                    <div class="modal-two__close not__close-btn-two">Свернуть</div>
+                                    <div class="popup__people-active">
+                                        <div class="popup__people-inner">
+                                            <div class="popup__people-image">
+                                                <img src="img/popup-1.png" alt="image">
+                                            </div>
+                                            <div class="popup__people-item">
+                                                <div class="popup__people-title">
+                                                    Константинопольский
+                                                    Константин Константинович
+                                                </div>
+                                                <div class="popup__people-text">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного освещения
+                                                </div>
+                                            </div>
+                                            <div class="popup__people-btn">
+                                                <a href="#">Написать сообщение</a>
+                                            </div>
+                                        </div>
+                                        <div class="popup__people-container">
+                                            <div class="popup__people-intro">
+                                                <!-- popup__people-inner -->
+                                                <ul class="popup__people-info">
+                                                    <li>E-mail</li>
+                                                    <li class="popup__people-first">konstantin1983@mail.ru</li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Телефон</li>
+                                                    <li>8 983 765 98 76 </li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Внутренний номер</li>
+                                                    <li>8 983 765 98 76 </li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Кабинет</li>
+                                                    <li>124А</li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Подразделение</li>
+                                                    <li class="popup__people-line">
+                                                        Отдел по строительству и реконструкции объектов наружного
+                                                        освещения
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="popup__people-link-bg">
+                                            <div class="popup__people-link">
+                                                <a href="#">Смотреть полную информацию</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="notBtnThird" class="modal-two__btn notification-modal__btn">
+                                <img src="img/popup-2.png" alt="">
+                                <div class="modal-two__btn-text">
+                                    Константинопольский Петр
+                                    <p>Написать сообщение</p>
+                                </div>
+                            </div>
+                            <div id="notThird" class="modal-two">
+                                <div class="modal-two__content popup__people">
+                                    <div class="modal-two__close not__close-btn-three">Свернуть</div>
+                                    <div class="popup__people-active">
+                                        <div class="popup__people-inner">
+                                            <div class="popup__people-image">
+                                                <img src="img/popup-1.png" alt="image">
+                                            </div>
+                                            <div class="popup__people-item">
+                                                <div class="popup__people-title">
+                                                    Константинопольский
+                                                    Константин Константинович
+                                                </div>
+                                                <div class="popup__people-text">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного освещения
+                                                </div>
+                                            </div>
+                                            <div class="popup__people-btn">
+                                                <a href="#">Написать сообщение</a>
+                                            </div>
+                                        </div>
+                                        <div class="popup__people-container">
+                                            <div class="popup__people-intro">
+                                                <!-- popup__people-inner -->
+                                                <ul class="popup__people-info">
+                                                    <li>E-mail</li>
+                                                    <li class="popup__people-first">konstantin1983@mail.ru</li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Телефон</li>
+                                                    <li>8 983 765 98 76 </li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Внутренний номер</li>
+                                                    <li>8 983 765 98 76 </li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Кабинет</li>
+                                                    <li>124А</li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Подразделение</li>
+                                                    <li class="popup__people-line">
+                                                        Отдел по строительству и реконструкции объектов наружного
+                                                        освещения
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="popup__people-link-bg">
+                                            <div class="popup__people-link">
+                                                <a href="#">Смотреть полную информацию</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="notBtnFourth" class="modal-two__btn notification-modal__btn">
+                                <img src="img/popup-2.png" alt="">
+                                <div class="modal-two__btn-text">
+                                    Константинопольский Петр
+                                    <p>Написать сообщение</p>
+                                </div>
+                            </div>
+                            <div id="notFourth" class="modal-two">
+                                <div class="modal-two__content popup__people">
+                                    <div class="modal-two__close not__close-btn-four">Свернуть</div>
+                                    <div class="popup__people-active">
+                                        <div class="popup__people-inner">
+                                            <div class="popup__people-image">
+                                                <img src="img/popup-1.png" alt="image">
+                                            </div>
+                                            <div class="popup__people-item">
+                                                <div class="popup__people-title">
+                                                    Константинопольский
+                                                    Константин Константинович
+                                                </div>
+                                                <div class="popup__people-text">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного освещения
+                                                </div>
+                                            </div>
+                                            <div class="popup__people-btn">
+                                                <a href="#">Написать сообщение</a>
+                                            </div>
+                                        </div>
+                                        <div class="popup__people-container">
+                                            <div class="popup__people-intro">
+                                                <!-- popup__people-inner -->
+                                                <ul class="popup__people-info">
+                                                    <li>E-mail</li>
+                                                    <li class="popup__people-first">konstantin1983@mail.ru</li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Телефон</li>
+                                                    <li>8 983 765 98 76 </li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Внутренний номер</li>
+                                                    <li>8 983 765 98 76 </li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Кабинет</li>
+                                                    <li>124А</li>
+                                                </ul>
+                                                <ul class="popup__people-info">
+                                                    <li>Подразделение</li>
+                                                    <li class="popup__people-line">
+                                                        Отдел по строительству и реконструкции объектов наружного
+                                                        освещения
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="popup__people-link-bg">
+                                            <div class="popup__people-link">
+                                                <a href="#">Смотреть полную информацию</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="user">
+
+                <div class="user__img">
+                    <img src="img/man.png" alt="">
+                </div>
+
+                <div class="user__wrap">
+                    <div class="user__name">Александр</div>
+
+                    <div class="user__post">
+                        директор по развитию
+                    </div>
+                </div>
+
+                <img src="img/arrow.svg" alt="">
+
+            </div>
+
+
+
+        </div>
+
+    </header>
+    <!-- header -->
+
+    <!-- body -->
+    <section class="body">
+        <div class="container">
+
+            <ul class="body__wrap">
+                <!-- body__left -->
+                <aside class="body__left">
+                    <ul class="aside__nav">
+                        <li class="aside__nav-active">
+                            <a href="#">Главная</a>
+                            <ul class="aside__nav-default-inner">
+                                <li><a href="#">Совет молодежи</a></li>
+                                <li><a href="#">Противодействие терроризму</a></li>
+                                <li><a href="#">Профсоюз</a></li>
+                                <li><a href="#">Мероприятия</a></li>
+                                <li><a href="#">Карточка предприятия</a></li>
+                            </ul>
+                        </li>
+                        <li class="aside__nav-default">
+                            <a href="#">Структура компании</a>
+                            <ul class="aside__nav-default-inner">
+                                <li><a href="#">Совет молодежи</a></li>
+                                <li><a href="#">Противодействие терроризму</a></li>
+                                <li><a href="#">Профсоюз</a></li>
+                                <li><a href="#">Мероприятия</a></li>
+                                <li><a href="#">Карточка предприятия</a></li>
+                            </ul>
+                        </li>
+                        <li class="aside__nav-default">
+                            <a href="#">Документы</a>
+                            <ul class="aside__nav-default-inner">
+                                <li><a href="#">Совет молодежи</a></li>
+                                <li><a href="#">Противодействие терроризму</a></li>
+                                <li><a href="#">Профсоюз</a></li>
+                                <li><a href="#">Мероприятия</a></li>
+                                <li><a href="#">Карточка предприятия</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="aside__tabs">
+                        <li class="active">
+                            <div class="aside__tabs-icon quest active">
+                                <img src="img/quest.svg" alt="">
+                            </div>
+                            Вопросы генеральному директору
+                        </li>
+                        <li>
+                            <div class="aside__tabs-icon tel">
+                                <img src="img/tel.svg" alt="">
+                            </div>
+                            Телефон доверия</a>
+                        <li>
+                            <div class="aside__tabs-icon tech">
+                                <img src="img/tech-support.svg" alt="">
+                            </div>
+                            Техническая поддержка
+                        </li>
+                        <li>
+                            <div class="aside__tabs-icon books">
+                                <img src="img/books.svg" alt="">
+                            </div>
+                            Библиотека
+                        </li>
+                    </ul>
+                </aside>
+                <!-- body__left -->
+
+
+
+
+
+
+                <!-- body__main -->
+                <main class="body__main-second">
+
+                    <!-- tabs -->
+                    <div class="tabs">
+
+                        <ul class="tabs__caption-two">
+                            <li>Структура полностью</li>
+                            <li class="active">Администрация</li>
+                        </ul>
+                        <div class="tabs__people">
+                            <div class="tabs__people-info">
+                                <div class="tabs__people-about">
+                                    <div class="people-inner">
+                                        <a href="#">
+                                            <img src="img/people-1.png" alt="">
+                                            <div class="about__text">
+                                                <div class="about__name">
+                                                    Константинопольский Константин Константинович
+                                                </div>
+                                                <div class="about__people">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного
+                                                    освещения
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="people-inner">
+                                        <a href="#">
+                                            <img src="img/people-2.png" alt="">
+                                            <div class="about__text">
+                                                <div class="about__name">
+                                                    Константинопольский Константин Константинович
+                                                </div>
+                                                <div class="about__people">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного
+                                                    освещения
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="people-inner">
+                                        <a href="#">
+                                            <img src="img/people-3.png" alt="">
+                                            <div class="about__text">
+                                                <div class="about__name">
+                                                    Константинопольский Константин Константинович
+                                                </div>
+                                                <div class="about__people">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного
+                                                    освещения
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="tabs__people-about">
+                                    <div class="people-inner">
+                                        <a href="#">
+                                            <img src="img/people-4.png" alt="">
+                                            <div class="about__text">
+                                                <div class="about__name">
+                                                    Константинопольский Константин Константинович
+                                                </div>
+                                                <div class="about__people">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного
+                                                    освещения
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="people-inner">
+                                        <a href="#">
+                                            <img src="img/people-5.png" alt="">
+                                            <div class="about__text">
+                                                <div class="about__name">
+                                                    Константинопольский Константин Константинович
+                                                </div>
+                                                <div class="about__people">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного
+                                                    освещения
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="people-inner">
+                                        <a href="#">
+                                            <img src="img/people-6.png" alt="">
+                                            <div class="about__text">
+                                                <div class="about__name">
+                                                    Константинопольский Константин Константинович
+                                                </div>
+                                                <div class="about__people">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного
+                                                    освещения
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="tabs__people-about">
+                                    <div class="people-inner">
+                                        <a href="#">
+                                            <img src="img/people-7.png" alt="">
+                                            <div class="about__text">
+                                                <div class="about__name">
+                                                    Константинопольский Константин Константинович
+                                                </div>
+                                                <div class="about__people">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного
+                                                    освещения
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="people-inner">
+                                        <a href="#">
+                                            <img src="img/people-8.png" alt="">
+                                            <div class="about__text">
+                                                <div class="about__name">
+                                                    Константинопольский Константин Константинович
+                                                </div>
+                                                <div class="about__people">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного
+                                                    освещения
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="people-inner">
+                                        <a href="#">
+                                            <img src="img/people-7.png" alt="">
+                                            <div class="about__text">
+                                                <div class="about__name">
+                                                    Константинопольский Константин Константинович
+                                                </div>
+                                                <div class="about__people">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного
+                                                    освещения
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="people-inner">
+                                        <a href="#">
+                                            <img src="img/people-6.png" alt="">
+                                            <div class="about__text">
+                                                <div class="about__name">
+                                                    Константинопольский Константин Константинович
+                                                </div>
+                                                <div class="about__people">
+                                                    Руководитель отдела по строительству и реконструкции объектов
+                                                    наружного
+                                                    освещения
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- tabs -->
+
+                </main>
+                <!-- body__main -->
+
+
+
+
+
+
+                <!-- body__right -->
+                <aside class="body__right">
+
+                    <div class="bookmarks__wrap right__wrap">
+
+                        <div class="right__title">
+                            <img src="img/bookmarks.svg" alt="">
+                            <h4>Мои закладки</h4>
+                        </div>
+
+                        <a href="#">
+                            Итоги ремонтной программы за первое полугодие 2021 года
+                        </a>
+
+                        <a href="#">
+                            В Минэкономразвития сообщили, что отмена ограничительных мер позволит импортировать семена
+                            для выращивания
+                            бобов, используемых в качестве кормовой базы
+                        </a>
+
+                        <a href="#">
+                            Новый жилой комплекс на юго-востоке москвы подключили к электросетям
+                        </a>
+
+                        <a href="#">
+                            Прика о выдаче премий передовикам производства
+                        </a>
+
+                        <a href="#" class="btn">
+                            Смотреть все
+                        </a>
+
+                    </div>
+
+                    <div class="right__wrap">
+                        <div class="right__title">
+                            <img src="img/other.svg" alt="">
+                            <h4>Полезные ссылки</h4>
+                        </div>
+                        <a href="#">Корпоративная газета</a>
+
+                        <a href="#">Первичная профсоюзная организация</a>
+
+                        <a href="#">Совет молодежи</a>
+
+                        <a href="#">Спортивная жизнь</a>
+
+                        <a href="#">Противодействие терроризму</a>
+                    </div>
+
+                    <div class="right__wrap">
+                        <div class="right__title">
+                            <img src="img/favourites.svg" alt="">
+                            <h4>Избранные документы</h4>
+                        </div>
+
+                        <div class="right__documents">
+                            <a href="#">
+                                Прика о выдаче премий передовикам производства
+                            </a>
+
+                            <div class="right__documents-bot">
+                                <a href="#">Смотреть</a>
+                                <a href="#">Скачать</a>
+                                <a href="#">Удалить</a>
+                            </div>
+                        </div>
+
+                        <div class="right__documents">
+                            <a href="#">
+                                Прика о выдаче премий передовикам производства
+                            </a>
+
+                            <div class="right__documents-bot">
+                                <a href="#">Смотреть</a>
+                                <a href="#">Скачать</a>
+                                <a href="#">Удалить</a>
+                            </div>
+                        </div>
+
+                        <div class="right__documents">
+                            <a href="#">
+                                Прика о выдаче премий передовикам производства
+                            </a>
+
+                            <div class="right__documents-bot">
+                                <a href="#">Смотреть</a>
+                                <a href="#">Скачать</a>
+                                <a href="#">Удалить</a>
+                            </div>
+                        </div>
+
+                        <div class="right__documents">
+                            <a href="#">
+                                Прика о выдаче премий передовикам производства
+                            </a>
+
+                            <div class="right__documents-bot">
+                                <a href="#">Смотреть</a>
+                                <a href="#">Скачать</a>
+                                <a href="#">Удалить</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </aside>
+                <!-- body__right -->
+        </div>
+
+        </div>
+    </section>
+    <!-- body -->
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
