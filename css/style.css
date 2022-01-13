@@ -777,7 +777,6 @@ template, [hidden] {
 }
 
 .body__main {
-  width: 100%;
   background-color: #ffffff;
   padding: 0 60px;
   max-width: 830px;
@@ -2980,8 +2979,9 @@ template, [hidden] {
 .union__content-form{
   display: grid;
   margin: 0 20px 0 20px;
+  position: relative;
 }
-.union__content-form input{
+.union__content-form-input{
   width: 536px;
   margin-bottom: 10px;
   border: 1px solid #C4C4C4;
@@ -3023,6 +3023,17 @@ template, [hidden] {
   border-radius: 10px;
   border: none;
   margin-top: 20px;
+}
+.union__content-form-error{
+  position: absolute;
+  font-family: "SuisseIntl";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  top: -23px;
+  right: 2px;
 }
 
 
