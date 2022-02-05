@@ -1,11 +1,14 @@
-var oneActive = document.getElementById("oneActive");
-var oneDefault = document.getElementById("oneDefault");
-oneDefault.onclick = function () {
-    oneActive.style.display = "block"
-    oneDefault.style.display = "none"
-};
-oneActive.onclick = function () {
-    oneActive.style.display = "none"
-    oneDefault.style.display = "block"
-};
 
+document.querySelectorAll('.favorites__inner').forEach((item) =>
+	item.addEventListener('click', () => {
+		const parentThree = item.parentNode;
+
+		if (parentThree.classList.contains('favorites-active')) {
+			parentThree.classList.remove('favorites-active');
+		}else {
+			document
+				.querySelectorAll('.favorites-btn')
+			parentThree.classList.toggle('favorites-active');
+		}
+	})
+)

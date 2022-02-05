@@ -1850,7 +1850,6 @@ template, [hidden] {
 }
 .active-list.about__lighting-inner::before {
   content: url(../img/about-orange.svg);
-  top: 142px;
 }
 .active-list.about__division-inner div {
   border: 1px solid #F38B3E;
@@ -3965,6 +3964,17 @@ template, [hidden] {
 }
 .bookmarks__mini-title-active{
   display: none;
+}
+.favorites-active .bookmarks__mini-title-active{
+  display: block;
+}
+.favorites-active .bookmarks__mini-title-default{
+  display: none;
+}
+.favorites__inner{
+  display: flex;
+  width: 22px;
+  height: 20px;
 }
 .bookmarks__mini-text-one{
   font-weight: 400;
